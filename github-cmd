@@ -1,0 +1,35 @@
+git config --global user.name djarvnd
+git config --global user.email aravind4248@gmail.com
+git add --> to add the file from local to staging area
+git rm --cached <file>..." to unstage)
+git status --> to check the status
+git commit -m "message" --> to commit the file from staggin area
+git push - u origin remote --> pushing from local to central
+git branch <branch name> --> to create new branch
+git checkout <branch name> --> shifting one branch to another branch
+git log --oneline --decorate --graph --all
+git reflog { short logs }
+git merge <branch name> --> merging
+git ignore link https://www.gitignore.io/
+*.class
+# Ignore all php files
+*.php
+# but not index.php
+!index.php
+# Ignore all text files that start with aeiou
+[aeiou]*.txt
+git stash
+git stash list
+git stash apply
+git stash pop
+git stash drop
+git stash clear
+#You can tag till a particular commit id, imagine all the files till now are my working copies:
+git tag 1.0 -m “release-1.0” <commit_id>
+git push --tags
+
+#Goto GitHub and see release click on it, you can download all the files till that commit.
+
+TAGGING helps you in release management.
+
+
